@@ -6,7 +6,7 @@ while(counter < n){
   message = message + "SFC ";
   counter = counter + 1;
 }
-  return message;
+  console.log(message);
 };
 
 var sfcPyramid = function(n){
@@ -17,8 +17,6 @@ while (row <= n){
   output = nSFC(row);
   row = row + 1;
    }
-  return output;
-  console.log(output)
 };
 
 sfcPyramid(5);
